@@ -1,0 +1,9 @@
+#! /bin/bash
+
+function set_amber {
+	dispwin -d "$1" -c
+	dispwin -d "$1" amber.cal
+}
+
+set_amber 1
+set_amber 2
